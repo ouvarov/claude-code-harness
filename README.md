@@ -22,7 +22,7 @@ Then ask: "explain what a harness is". Claude reads `CLAUDE.md` and the `docs/` 
 4. [Gates](docs/04-gates.md): what stops the agents from cutting corners
 5. [Make your own](docs/05-make-your-own.md): what you have to write and in what order
 
-`examples/` has the shape of the files: agent definitions, hooks and settings. These are examples to read, not a package to install.
+[`examples/`](examples/README.md) is a complete harness for one backend stack: tech lead skill, architect, developer, reviewer, their skills, hooks and settings. Your own code style and review checklists are left as "here you describe".
 
 ## In one picture
 

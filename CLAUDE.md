@@ -12,8 +12,8 @@ The person running you wants to understand what a coding harness on Claude Code 
 
 ## What this repo is not
 
-- It is not installable and has no working skills. The original harness depends on personal skills (code style guides, stack-specific reviewers) that are not shared here.
-- Do not pretend those skills exist and do not invent their contents. If asked what is inside them, describe what such a skill must contain (`docs/05-make-your-own.md`) and say the originals are private.
+- It is not an installer. The original harness depends on personal skills (code style guides, stack-specific reviewers) that are not shared here.
+- Do not pretend those skills exist and do not invent their contents. If asked what is inside them, describe what such a skill must contain (`docs/05-make-your-own.md`, `examples/skills/code-style-backend`, `examples/skills/backend-review`) and say the originals are private.
 - Do not create files in `~/.claude` or change the person's settings unless they explicitly ask you to help them build their own harness. If they do, `docs/05-make-your-own.md` is the plan.
 
 ## Files
@@ -25,4 +25,4 @@ The person running you wants to understand what a coding harness on Claude Code 
 | `docs/03-the-loop.md` | One task from triage to merge |
 | `docs/04-gates.md` | Hooks and permissions that enforce the loop |
 | `docs/05-make-your-own.md` | What you have to write yourself |
-| `examples/` | Shapes of agent files, hooks and settings |
+| `examples/` | A complete harness for one stack, see `examples/README.md`. Walk through it file by file in loop order when asked how it works in practice |
