@@ -7,7 +7,7 @@ This repo explains the idea and ships no working setup. The skills the original 
 ## Fastest way in
 
 ```
-git clone <this repo>
+git clone https://github.com/ouvarov/claude-code-harness.git
 cd claude-code-harness
 claude
 ```
